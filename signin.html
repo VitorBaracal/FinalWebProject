@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favcon_nike.webp" type="image/x-icon">
+    <link rel="stylesheet" href="styles/signin.css">
+    <title> Nike! Just do It! </title>
+</head>
+
+<body>
+    <!-- ========== TOP NAV SITE ========== -->
+    <nav class="top-nav">
+        <!-- Left Top Nav Logo -->
+        <div class="img-top-nav">
+            <img class="jordan-top-nav" src="images/jordan_header.png" alt="jordan_logo">
+            <img class="converse-top-nav" src="images/converse_header.png" alt="converse_logo">
+        </div>
+        <!-- End Left Top Nav Logo -->
+        
+        <!-- Right Top Nav Content -->
+        <div class="text-top-nav">
+            <a href="https://www.nike.com/retail" target="_blank"> Find a Store </a>
+            <span>|</span>
+            <a href="https://www.nike.com/help" target="_blank"> Help </a>
+            <span>|</span>
+            <a href="https://www.nike.com/membership" target="_blank"> Join Us </a>
+            <span>|</span>
+            <a href="signin.html"> Sign In </a>
+        </div>
+        <!-- End Right Top Nav Content -->
+    </nav>
+    <!-- ========== END TOP NAV SITE ========== -->
+
+    <!-- ========== HEADER MENU ========== -->
+    <header class="header">
+        <nav class="header-nav">  
+            <!-- Right Header Logo --> 
+            <div class="header-logo">
+                <a href="index.html"> <img src="images/nike_logo_header.jpg" alt="logo nike"></a>
+            </div>
+            <!-- End Right Header Logo --> 
+            
+            <!-- Center Header Menu --> 
+            <div class="header-content">      
+                <a href="https://www.nike.com/w/new-3n82y" target="_blank"> New </a>
+                <a href="https://www.nike.com/men" target="_blank"> Men </a>
+                <a href="https://www.nike.com/women" target="_blank"> Women </a>
+                <a href="https://www.nike.com/kids" target="_blank"> Kids </a>
+                <a href="https://www.nike.com/jordan" target="_blank"> Jordan </a>
+                <a href="https://www.nike.com/w/sale-3yaep" target="_blank"> Sale </a>  
+            </div> 
+            <!-- End Center Header Menu --> 
+        </nav>
+    </header>
+    <!-- ========== END HEADER MENU ========== -->   
+
+    <!-- ========== SIGN IN FORMS ========== -->
+    <div id="main">
+        <h2> Login on Website </h2>
+        <form action="" method="post"> 
+            
+            <div class="form-group">
+                <label class="label" for="name"> Name </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+                    
+            <div class="form-group">
+                <label class="label" for="email"> Email </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+                    
+            <div class="form-group">
+                <label class="label" for="password"> Password </label>
+                <input type="password" id="password" name="password" required pattern="">
+                <p class="caption"> minimum 8 characters, including a special character </p>
+            </div>
+            
+            <button type="submit" class="button" onclick="Login()">Login</button>
+            
+        </form>
+    </div>  
+    <!-- ========== SIGN IN FORMS ========== -->
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3> Resources </h3>
+                    <ul class="footer-links">
+                        <li><a href="#"> Gift Cards </a></li>
+                        <li><a href="#"> Find a Store </a></li>
+                        <li><a href="#"> Membership </a></li>
+                        <li><a href="#"> Nike Journal </a></li>
+                        <li><a href="#"> Site Feedback </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3> Help </h3>
+                    <ul class="footer-links">
+                        <li><a href="#"> Get Help </a></li>
+                        <li><a href="#"> Order Status </a></li>
+                        <li><a href="#"> Shipping and Delivery </a></li>
+                        <li><a href="#"> Returns </a></li>
+                        <li><a href="#"> Order Cancellation </a></li>
+                        <li><a href="#"> Payment Options </a></li>
+                        <li><a href="#"> Gift Card Balance </a></li>
+                        <li><a href="#"> Contact Us </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3> Company </h3>
+                    <ul class="footer-links">
+                        <li><a href="#"> About Nike </a></li>
+                        <li><a href="#"> News </a></li>
+                        <li><a href="#"> Careers </a></li>
+                        <li><a href="#"> Investors </a></li>
+                        <li><a href="#"> Purpose </a></li>
+                        <li><a href="#"> Sustainability </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3> Promotions & Discounts </h3>
+                    <ul class="footer-links">
+                        <li><a href="#"> Student </a></li>
+                        <li><a href="#"> Military </a></li>
+                        <li><a href="#"> Teacher </a></li>
+                        <li><a href="#"> First Responders & Medical Professionals </a></li>
+                        <li><a href="#"> Birthday </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="location">
+                    <span> 🌍 </span>
+                    <a href="#"> Brasil </a>
+                </div>
+                <div class="footer-legal">
+                    <span> © 2024 Nike, Inc. All Rights Reserved </span>
+                    <a href="#"> Guides </a>
+                    <a href="#"> Terms of Sale </a>
+                    <a href="#"> Terms of Use </a>
+                    <a href="#"> Nike Privacy Policy </a>
+                    <a href="#"> Your Privacy Choices </a>
+                    <a href="#"> CA Supply Chains Act </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
+
+    <script src="scripts/scripts.js"> </script>
+</body>
+</html>

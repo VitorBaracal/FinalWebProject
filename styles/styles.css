@@ -1,0 +1,348 @@
+/* ========== IMPORTAÇÃO DE FONTES ========== */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ========== VÁRIÁVEIS ========== */
+:root {
+    --background-color: #F5F5F5;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* ========== EXCLUSÃO DE FORMATAÇÕES GERAIS DA PÁGINA ========== */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ========== TOP NAV SITE ========== */
+.top-nav {
+    background-color: var(--background-color);
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.img-top-nav {
+    display: flex;
+    align-items: center; 
+    margin-left: 100px;
+}
+.jordan-top-nav, .converse-top-nav {
+    height: 20px; 
+    margin-left: 20px; 
+}
+.text-top-nav {
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+}
+.text-top-nav a {
+    color: #111111;
+    text-decoration: none;
+}
+/* ========== TOP NAV SITE ========== */
+
+/* ========== HEADER MENU ========== */
+.header {
+    background-color: var(--white);
+    padding: 10px 0;
+    position: relative; 
+    height: 40px;
+}
+.header-nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+    margin-top: 14px;
+}
+.header-logo {
+    position: absolute; 
+    left: 30px;
+}
+.header-logo img {
+    width: 80px;
+    margin-top: 5px; 
+}
+.header-content {
+    display: flex;
+    gap: 25px;
+    font-weight: bold;
+}
+.header-content a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 1px 15px;
+}
+.header-content a:hover {
+    background-color: black;
+    color: var(--white);
+    border-radius:  5px;
+    
+    transition: all 0.6s;
+}
+/* ========== HEADER MENU ========== */
+
+/* ========== MAIN ========== */
+.main {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* ========== Banner 1 - Main One ========== */
+.main-one {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 100%;
+} /* ========== End Banner 1 - Main One ========== */
+
+/* ========== Main Content 1 - Main Two ========== */
+.main-two {
+    text-align: center; 
+    margin-top: 20px;   
+}
+.h2-main-two {
+    font-family: 'Passion One', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+    color: #111111;
+    text-align: center;
+    margin: 15px;
+}
+.p-main-two {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #111111;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.button-main-two {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    padding: 0 32px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none; 
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    line-height: 40px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.button-main-two:hover {
+    background-color: rgba(146, 146, 146, 0.9);
+} /* ========== End Main Content 1 - Main Two ========== */
+
+/* ========== Banner 2 - Main Three ========== */
+.main-three {
+    margin-top: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;    
+    width: 100%;
+} /* ========== End Banner 2 - Main Three ========== */
+
+/* ========== Product Main List - Main Four ========== */
+.p-main-four {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.product-grid-main-four {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.product-card {
+    margin-top: 50px;
+    background-color: #1D1D1D;
+    color: white;
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center;
+}
+.product-card:hover {
+    transform: scale(1.1);
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.product-card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}/* ========== End Product Main List - Main Four ========== */
+/* ========== END MAIN ========== */
+
+/* ========== FOOTER ========== */
+.footer {
+    padding: 40px 48px;
+    background-color: white;
+    color: #111;
+    border-top: 1px solid rgb(223, 223, 223);
+    margin-top: 50px;  
+}
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.footer-column h3 {
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.footer-links {
+    list-style: none;
+}
+.footer-links li {
+    margin-bottom: 12px;
+}
+.footer-links a {
+    color: #707072;
+    text-decoration: none;
+    font-size: 12px;
+    transition: color 0.2s;
+}
+.footer-links a:hover {
+    color: #111;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 12px;
+    color: #707072;
+}
+.footer-legal {
+    display: flex;
+    gap: 24px;
+}
+.footer-legal a {
+    color: #707072;
+    text-decoration: none;
+}
+.footer-legal a:hover {
+    color: #111;
+}
+.location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+} /* ========== END FOOTER ========== */
+
+
+@media (max-width: 1024px) {
+    .text-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .img-nav {
+        margin-left: 0;
+    }
+    .main-nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .h2-main-two {
+        font-size: 60px;
+    }
+    .p-main-two {
+        font-size: 14px;
+    }
+    .product-grid-main-four {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-columns {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-logo img, .jordan-top-nav, .converse-top-nav {
+        display: none;
+    }  
+    .header-content {
+        
+        align-items: center;
+        gap: 10px;
+    }
+    .text-top-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .h2-main-two {
+        font-size: 50px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .p-main-two {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .button-main-two {
+        margin: 20px auto;
+    }  
+    .product-grid-main-four {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-columns {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+
+
+
+
